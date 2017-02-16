@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A13887C21E55EB9600D6015C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A13887C11E55EB9600D6015C /* main.m */; };
+		A13887C51E55EB9600D6015C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13887C41E55EB9600D6015C /* AppDelegate.m */; };
+		A13887C81E55EB9600D6015C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13887C71E55EB9600D6015C /* ViewController.m */; };
+		A13887CB1E55EB9600D6015C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13887C91E55EB9600D6015C /* Main.storyboard */; };
+		A13887CD1E55EB9600D6015C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13887CC1E55EB9600D6015C /* Assets.xcassets */; };
+		A13887D01E55EB9600D6015C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13887CE1E55EB9600D6015C /* LaunchScreen.storyboard */; };
+		A13887DB1E55EB9600D6015C /* ______DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13887DA1E55EB9600D6015C /* ______DemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A13887D71E55EB9600D6015C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13887B51E55EB9600D6015C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13887BC1E55EB9600D6015C;
+			remoteInfo = "直播字幕渐隐Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A13887BD1E55EB9600D6015C /* 直播字幕渐隐Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "直播字幕渐隐Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13887C11E55EB9600D6015C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A13887C31E55EB9600D6015C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A13887C41E55EB9600D6015C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A13887C61E55EB9600D6015C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A13887C71E55EB9600D6015C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A13887CA1E55EB9600D6015C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A13887CC1E55EB9600D6015C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A13887CF1E55EB9600D6015C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A13887D11E55EB9600D6015C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13887D61E55EB9600D6015C /* 直播字幕渐隐DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "直播字幕渐隐DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13887DA1E55EB9600D6015C /* ______DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______DemoTests.m"; sourceTree = "<group>"; };
+		A13887DC1E55EB9600D6015C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A13887BA1E55EB9600D6015C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13887D31E55EB9600D6015C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A13887B41E55EB9600D6015C = {
+			isa = PBXGroup;
+			children = (
+				A13887BF1E55EB9600D6015C /* 直播字幕渐隐Demo */,
+				A13887D91E55EB9600D6015C /* 直播字幕渐隐DemoTests */,
+				A13887BE1E55EB9600D6015C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A13887BE1E55EB9600D6015C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A13887BD1E55EB9600D6015C /* 直播字幕渐隐Demo.app */,
+				A13887D61E55EB9600D6015C /* 直播字幕渐隐DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A13887BF1E55EB9600D6015C /* 直播字幕渐隐Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A13887C31E55EB9600D6015C /* AppDelegate.h */,
+				A13887C41E55EB9600D6015C /* AppDelegate.m */,
+				A13887C61E55EB9600D6015C /* ViewController.h */,
+				A13887C71E55EB9600D6015C /* ViewController.m */,
+				A13887C91E55EB9600D6015C /* Main.storyboard */,
+				A13887CC1E55EB9600D6015C /* Assets.xcassets */,
+				A13887CE1E55EB9600D6015C /* LaunchScreen.storyboard */,
+				A13887D11E55EB9600D6015C /* Info.plist */,
+				A13887C01E55EB9600D6015C /* Supporting Files */,
+			);
+			path = "直播字幕渐隐Demo";
+			sourceTree = "<group>";
+		};
+		A13887C01E55EB9600D6015C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A13887C11E55EB9600D6015C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A13887D91E55EB9600D6015C /* 直播字幕渐隐DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A13887DA1E55EB9600D6015C /* ______DemoTests.m */,
+				A13887DC1E55EB9600D6015C /* Info.plist */,
+			);
+			path = "直播字幕渐隐DemoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A13887BC1E55EB9600D6015C /* 直播字幕渐隐Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13887DF1E55EB9600D6015C /* Build configuration list for PBXNativeTarget "直播字幕渐隐Demo" */;
+			buildPhases = (
+				A13887B91E55EB9600D6015C /* Sources */,
+				A13887BA1E55EB9600D6015C /* Frameworks */,
+				A13887BB1E55EB9600D6015C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "直播字幕渐隐Demo";
+			productName = "直播字幕渐隐Demo";
+			productReference = A13887BD1E55EB9600D6015C /* 直播字幕渐隐Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A13887D51E55EB9600D6015C /* 直播字幕渐隐DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13887E21E55EB9600D6015C /* Build configuration list for PBXNativeTarget "直播字幕渐隐DemoTests" */;
+			buildPhases = (
+				A13887D21E55EB9600D6015C /* Sources */,
+				A13887D31E55EB9600D6015C /* Frameworks */,
+				A13887D41E55EB9600D6015C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13887D81E55EB9600D6015C /* PBXTargetDependency */,
+			);
+			name = "直播字幕渐隐DemoTests";
+			productName = "直播字幕渐隐DemoTests";
+			productReference = A13887D61E55EB9600D6015C /* 直播字幕渐隐DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A13887B51E55EB9600D6015C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xun;
+				TargetAttributes = {
+					A13887BC1E55EB9600D6015C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 85K5E6N7VU;
+						ProvisioningStyle = Automatic;
+					};
+					A13887D51E55EB9600D6015C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 85K5E6N7VU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A13887BC1E55EB9600D6015C;
+					};
+				};
+			};
+			buildConfigurationList = A13887B81E55EB9600D6015C /* Build configuration list for PBXProject "直播字幕渐隐Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A13887B41E55EB9600D6015C;
+			productRefGroup = A13887BE1E55EB9600D6015C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A13887BC1E55EB9600D6015C /* 直播字幕渐隐Demo */,
+				A13887D51E55EB9600D6015C /* 直播字幕渐隐DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A13887BB1E55EB9600D6015C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13887D01E55EB9600D6015C /* LaunchScreen.storyboard in Resources */,
+				A13887CD1E55EB9600D6015C /* Assets.xcassets in Resources */,
+				A13887CB1E55EB9600D6015C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13887D41E55EB9600D6015C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A13887B91E55EB9600D6015C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13887C81E55EB9600D6015C /* ViewController.m in Sources */,
+				A13887C51E55EB9600D6015C /* AppDelegate.m in Sources */,
+				A13887C21E55EB9600D6015C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13887D21E55EB9600D6015C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13887DB1E55EB9600D6015C /* ______DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A13887D81E55EB9600D6015C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13887BC1E55EB9600D6015C /* 直播字幕渐隐Demo */;
+			targetProxy = A13887D71E55EB9600D6015C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A13887C91E55EB9600D6015C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13887CA1E55EB9600D6015C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A13887CE1E55EB9600D6015C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13887CF1E55EB9600D6015C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A13887DD1E55EB9600D6015C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A13887DE1E55EB9600D6015C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A13887E01E55EB9600D6015C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85K5E6N7VU;
+				INFOPLIST_FILE = "直播字幕渐隐Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ze.hong.------Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A13887E11E55EB9600D6015C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 85K5E6N7VU;
+				INFOPLIST_FILE = "直播字幕渐隐Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ze.hong.------Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A13887E31E55EB9600D6015C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 85K5E6N7VU;
+				INFOPLIST_FILE = "直播字幕渐隐DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ze.hong.------DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/直播字幕渐隐Demo.app/直播字幕渐隐Demo";
+			};
+			name = Debug;
+		};
+		A13887E41E55EB9600D6015C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 85K5E6N7VU;
+				INFOPLIST_FILE = "直播字幕渐隐DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ze.hong.------DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/直播字幕渐隐Demo.app/直播字幕渐隐Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A13887B81E55EB9600D6015C /* Build configuration list for PBXProject "直播字幕渐隐Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13887DD1E55EB9600D6015C /* Debug */,
+				A13887DE1E55EB9600D6015C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13887DF1E55EB9600D6015C /* Build configuration list for PBXNativeTarget "直播字幕渐隐Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13887E01E55EB9600D6015C /* Debug */,
+				A13887E11E55EB9600D6015C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A13887E21E55EB9600D6015C /* Build configuration list for PBXNativeTarget "直播字幕渐隐DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13887E31E55EB9600D6015C /* Debug */,
+				A13887E41E55EB9600D6015C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A13887B51E55EB9600D6015C /* Project object */;
+}
